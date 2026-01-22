@@ -10,31 +10,25 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <span className="purple"> INTRODUCTION </span>
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a software engineer focused on turning ideas into reliable,
+              scalable applications. Over time, I’ve worked with multiple
+              technologies and developed a strong interest in building
+              performant systems and clear, user-focused interfaces.
               <br />
               <br />
               I’m proficient in
               <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
+                <b className="purple"> JavaScript,Python, Node.js, and Java </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
               <br />
               <br />
               My key areas of interest include developing
               <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
+                <b className="purple"> Web Applications </b>
               </i>
               and exploring new ways to bridge on-chain and off-chain systems.
               <br />
@@ -43,7 +37,7 @@ function Home2() {
               <b className="purple"> Node.js </b> and modern frameworks like{" "}
               <i>
                 <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">ohter frameworks</b>.
               </i>
             </p>
           </Col>

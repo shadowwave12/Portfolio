@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #3b82f6;
 }
 
 .purple {
@@ -47,6 +47,31 @@ button:focus {
   display: none;
 } */
 
+:root {
+  --bg-color: #0d1117;
+  --text-color: #f8fafc;
+  --card-bg: #161b22;
+  --nav-bg: rgba(27, 26, 46, 0.66);
+  --section-gradient: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.582),
+    rgba(12, 8, 24, 0.904)
+  );
+  --accent-color: #3b82f6;
+}
+
+.light-mode {
+  --bg-color: #f4f6fb;
+  --text-color: #0f172a;
+  --card-bg: #ffffff;
+  --nav-bg: rgba(255, 255, 255, 0.8);
+  --section-gradient: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0.9),
+    rgba(233, 236, 244, 0.9)
+  );
+  --accent-color: #3b82f6;
+}
 #no-scroll {
   overflow: hidden;
   height: 100vh;
@@ -67,13 +92,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(86, 105, 231, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(103, 138, 244, 0.911);
   border-radius: 12px;
 }
 
@@ -102,7 +127,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #3b82f6 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -160,8 +185,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 4em !important;
+  width: 7em !important;
 }
 
 .navbar-nav .nav-link {
@@ -199,7 +224,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #3b82f6;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -286,17 +311,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #3b82f6;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #3b82f6 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #3b82f6 !important;
 }
 
 @media (max-width: 767px) {
@@ -376,7 +401,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #1a52ab;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -384,13 +409,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #153d7e;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #3b82f6;
+  box-shadow: 0 0 5px #3b82f6;
+  text-shadow: 0 0 2px #3b82f6;
 }
 
 .social-icons {
@@ -400,7 +425,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #143e82 !important;
 }
 
 /* --------- */
@@ -444,7 +469,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #4e38cb !important;
 }
 /* --------- */
 /* Projects */
@@ -523,14 +548,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #1a3d77 !important;
+  border-color: #123266 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #1a3d77 !important;
+  border-color: #1a3d77 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -572,7 +597,10 @@ button:focus {
   transition: all 0.4s ease 0s !important;
   width: fit-content !important;
   cursor: pointer !important;
-  transition: outline-color 0.3s, outline-width 0.3s, transform 0.3s;
+  transition:
+    outline-color 0.3s,
+    outline-width 0.3s,
+    transform 0.3s;
   color: white;
 }
 
@@ -663,7 +691,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #3b82f6;
   position: relative;
 }
 
@@ -700,7 +728,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #3b82f6;
 }
 
 .like-item {
@@ -720,7 +748,7 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
+  background-color: #031f4d !important;
   border-color: #a24dd386 !important;
 }
 
@@ -753,8 +781,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #7aa6ee !important;
+  border-color: #5f97f1 !important;
 }
 .fork-btn-inner::after {
   display: none !important;

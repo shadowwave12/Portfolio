@@ -8,15 +8,20 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hello everyone! I’m{" "}
+            <span className="purple">Purushotam Kumar Rauniyar</span> from{" "}
+            <span className="purple">
+              Nepal currently staying at visakhapatnam
+            </span>
+            .
             <br />
-            I’m currently working as a{" "}
+            {/* I’m currently working as a{" "}
             <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            <span className="purple">Juspay</span>. */}
+            <br />
+            I’m a final-year{" "}
+            <span className="purple">B.Tech Computer Science student</span>{" "}
+            studying in <span className="purple">Andhra University</span>.
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
@@ -28,17 +33,14 @@ function AboutCard() {
               <ImPointRight /> Playing Games 🎮
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
               <ImPointRight /> Traveling and Exploring New Places 🌍
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Focused on building solutions that create meaningful impact."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Purushotam</footer>
         </blockquote>
       </Card.Body>
     </Card>
