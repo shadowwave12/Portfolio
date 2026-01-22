@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
 import { FaRust } from "react-icons/fa";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
@@ -35,11 +34,16 @@ function Techstack() {
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={SQL} alt="Kafka" className="tech-icon-images" />
+        <div className="tech-icons-text">SQL</div>
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <img src={Mongo} alt="mongoDb" />
         <div className="tech-icons-text">Mongo DB</div>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <img src={Redux} alt="redux" />
         <div className="tech-icons-text">Redux</div>
