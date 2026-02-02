@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 // import Particle from "../Particle";
 import GlobalBackground from "../GlobalBackground";
-import pdf from "../../Assets/../Assets/Purushotam_CSE_AUCE.pdf";
+import pdf from "../../Assets/../Assets/Purushotam_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
