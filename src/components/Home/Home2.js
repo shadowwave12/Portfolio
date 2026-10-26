@@ -19,23 +19,28 @@ function Home2() {
               <br />
               I’m proficient in
               <i>
-                <b className="purple"> JavaScript,Python, Node.js, and Java </b>
+                <b className="purple">
+                  {" "}
+                  AI/ML, Python, Javascript, Node.js, and Java{" "}
+                </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I enjoy working across Gen-AI, Agentic-Ai, backend and
+              frontend stacks.
               <br />
               <br />
               My key areas of interest include developing
               <i>
-                <b className="purple"> Web Applications </b>
+                <b className="purple"> LLM based Web Applications </b>
               </i>
               and exploring new ways to bridge on-chain and off-chain systems.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Whenever possible, I love building projects related to
+              <b className="purple"> Agentic AI & Gen AI </b>, modern frameworks
+              like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">ohter frameworks</b>.
+                <b className="purple">Langchain, Langgraph</b> and{" "}
+                <b className="purple">other frameworks</b>.
               </i>
             </p>
           </Col>

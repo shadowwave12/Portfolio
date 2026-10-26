@@ -19,9 +19,11 @@ function AboutCard() {
             <span className="purple">Software Developer</span> at{" "}
             <span className="purple">Juspay</span>. */}
             <br />
-            I’m a final-year{" "}
-            <span className="purple">B.Tech Computer Science student</span>{" "}
-            studying in <span className="purple">Andhra University</span>.
+            I’m a{" "}
+            <span className="purple">
+              B.Tech Computer Science graduate
+            </span>{" "}
+            studied from <span className="purple">Andhra University</span>.
             <br />
             <br />
             Outside of coding, I love engaging in activities that keep me
